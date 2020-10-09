@@ -163,7 +163,7 @@ To make things even easier, Heroku provides a powerful addon system. In this sec
 `Path: ./my-project/`
 
 ```bash
-heroku addons:create heroku-postgresql:hobby-dev
+heroku addons:create heroku-postgresql:hobby-dev --app=my-project
 ```
 
 #### 2. Retrieve database credentials
